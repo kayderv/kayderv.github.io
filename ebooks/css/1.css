@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding: 0;
+}
+div.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #0f2b464f;
+    position: absolute;
+    top: 0;
+    z-index: 12;
+    transition: 0.4s;
+}
+div.menu ul.menu{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+div.menu ul.menu li{
+    font-size: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 3%;
+    padding-right: 3%;
+    font-weight:  bold;
+}
+div.menu ul.menu li b.menu{
+    font-size: 30px;
+    color: #626be6;
+}
+div.menu ul.menu li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    display:  inline-block;
+}
+div.menu ul.menu li a:hover{
+    color:#9EA2A7;
+}
+.slidewrapper .menuscroll{
+    height: 80px;
+    background-color:#3498db;
+}
+div.menu ul.menu li{
+    padding-top: 2%;
+}
+.slidewrapper .menuscroll{
+    height: 80px;
+    background-color:#3498db;
+}
+div.menu ul.menu li.menuli{
+    padding-top: 1%;
+}
+i.fas.fa-book {
+    position: relative;
+    left: 28px;
+    top: 2px;
+    font-size: 34px;
+    color: #626be6;
+}
+   /* end menu*/
+section {
+    padding-top: 15%;
+    margin:  auto;
+    text-align:  center;
+    width:  80%;
+
+}
+
+section h1 {
+    margin-bottom: 32px;
+}
+
+section .content ul {
+    display:  flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+section .content ul li {
+    width: 22%;
+    margin-bottom: 28px;
+    transition: 0.4s;
+}
+section .content ul li:hover{
+    border:  1px solid #1D7EC6;
+}
+section .content ul li:hover a{
+    color: #1D7EC6;
+}
+.content ul li a img {
+    width: 74%;
+    height: 80%;
+    margin-top: 21px;
+    margin-bottom: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.31);
+}
+.content a {
+    text-decoration: none;
+    color: #504f4f;
+    font-family: "Roboto Slab", serif;
+    transition: 0.4s;
+}
+.tuaebook {
+    padding-bottom: 17px;
+}
+@media (max-width: 576px){
+section .content ul li {
+    width: 48%;
+    margin-bottom: 28px;
+    transition: 0.4s;
+}
+div.menu ul.menu li {
+    padding-top: 2%;
+    display: block;
+}
+i.fas.fa-book {
+    position: relative;
+    left: -107px;
+    top: 23px;
+}
+div.menu ul.menu li b.menu {
+    position: relative;
+    top: -17px;
+}
+section {
+    padding-top: 65%;
+}
+div.menu {
+    height: 222px;
+}
+}

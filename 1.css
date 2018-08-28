@@ -1,0 +1,292 @@
+*{margin: 0;padding: 0}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.chuyenslide ul li {
+    display: inline-block;
+    border: 1px solid #80808054;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    border-radius: 80%;
+    margin:  20px 10px;
+    transition: 0.4s;
+    cursor:  pointer;
+}
+
+
+.chuyenslide ul {
+    display: inline;
+}
+
+.chuyenslide {
+    text-align:  center;
+    position:  absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:  9;
+}
+
+.chuyenslide ul li:hover,
+.active
+ {
+    background: #ffffff8c;
+}
+.cacslide ul li{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:  0;
+}
+.anh{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.cacslide ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cacslide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slidewrapper{
+     width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cacslide ul li.active1 {
+    opacity: 1;
+}
+/*end slide*/
+div.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #b5bdc533;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 12;
+    transition: 0.3s;
+}
+div.menu ul.menu{
+    list-style: none;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+div.menu ul.menu li.menu{
+    font-size: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 3%;
+    padding-right: 7%;
+    font-weight:  bold;
+}
+div.menu ul.menu li.menu b.menu{
+    font-size: 30px;
+    color: #62c1e6;;
+}
+div.menu ul.menu li.menu a.menu{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+#about{
+    cursor: pointer;
+    transition: 0.6s;
+}
+#comment{
+    cursor: pointer;
+    transition: 0.6s;
+}
+div.menu ul.menu li.menu a.menu:hover{
+    color:#9EA2A7;
+}
+.slidewrapper .menuscroll{
+    height: 80px;
+    background-color:#3498db;
+}
+div.menu ul.menu li.menuli{
+    padding-top: 1%;
+}
+.menu img {
+    position: relative;
+    top: 8px;
+    left: 57px;
+}
+/*end menu*/
+.about{with:100%;height: 100%;background-image: url(anhnenthongtin.jpg);position: relative;}
+.about .thongtinchinhscroll{
+    animation: thongtinchinh1 1s forwards;
+}
+@-webkit-keyframes thongtinchinh1{
+    from {transform:translateY(-100%);opacity:0;}
+    to {transform:translateY(0);opacity:1;};
+}
+.thongtinchinh {
+    margin:  auto;
+    width:  930px;
+    height:  508px;
+    padding-top: 60px;
+    display: flex;
+    background-color: #f6f6f6;
+    position:  absolute;
+    z-index:  9;
+    left: 17%;
+    top: 0;
+    opacity: 0;transition: 0.3s;
+    visibility: visible;
+}
+
+.thongtinchinh .trai {
+    width: 438px;
+}
+
+.thongtinchinh .phai .tren {
+    height:  181px;
+    box-sizing:  border-box;
+    padding-top: 115px;
+    font-size:  33px;
+    font-weight:  bold;
+    color:  gray;
+    font-family: sans-serif;
+}
+
+.thongtin {
+    display:  flex;
+    padding-top: 16px;
+}
+
+.thongtin ul {
+    list-style:  none;
+}
+
+.thongtin .trai ul li {
+    font-weight:  bold;
+    font-family: inherit;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.thongtin .phai ul li {
+    margin-left: -17px;
+}
+
+.thongtin .trai {
+    width: 156px;
+}
+
+.den {
+    background-color: #0000006e;
+    width:  100%;
+    height:  100%;
+    position:  absolute;
+    z-index:  1;
+    opacity: 0;transition: 0.4s;
+}
+.about .denscroll{
+    opacity: 1;
+}
+.thongtinchinh .trai img {
+    padding-left: 159px;
+    padding-top: 53px;
+}
+/*end about*/
+.khoicomment {
+    text-align: center;
+    padding-top: 3%;
+}
+h1.text-xs-center {
+    font-family: sans-serif;
+}
+@media screen and (max-width: 576px) {
+    body,html{
+        overflow-x: hidden;
+    }
+    .about {
+    background-size: cover;
+    }
+    .thongtinchinh {
+    width: 296px;
+    height: 420px;
+    left: 9%;
+    top: 42px;
+    position: absolute;
+    opacity: 1;
+    background-color: #ffffff00;
+
+}
+.thongtinchinh .trai img {
+    width: 124px;
+    position: relative;
+    top: -23%;
+    left:-25%;
+}
+.thongtinchinh .phai .tren {
+    position: relative;
+    text-align: center;
+    left: -95%;
+    color: #585f63;
+}
+hr {
+    position: relative;
+    left: -96%;
+}
+.thongtin {
+    display: flex;
+    padding-top: 16px;
+    position: relative;
+    left: -95%;}
+.den{
+    opacity: 1;
+}
+
+div.menu{
+    width: 100%;
+    height: 59px;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    padding-top: 11px;
+    left: -23px;
+    padding-right: 39px;
+}
+div.menu ul.menu{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+div.menu ul.menu li.menu{
+    font-size: 12px;
+    padding-top: 3%;
+    padding-right: 1%;
+    position:  relative;
+    top: 13%;
+}
+div.menu ul.menu li.menu b.menu{
+    font-size: 15px;
+    position:  relative;
+    left: 51%;
+    top: -18px;
+}
+div.menu ul.menu li.menuli{
+    padding-top: 1%;
+}
+.menu img {
+    display: none;
+}
+}

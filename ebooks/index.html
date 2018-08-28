@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thư viện ebooks</title>
+	<!-- load thu vien jquery -->
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet">
+	<!-- load file js tự viết -->
+	<script src="js/1.js"></script>	
+	<!-- link file css -->
+	<link rel="stylesheet" href="css/1.css">
+</head>
+<body>
+<div class="menu" id="scrollmenu">
+		<ul class="menu">
+			<li><a href="https://kayderv.github.io/"><i class="fas fa-book"></i></a></li>
+			<li><a href="https://kayderv.github.io/"><b class="menu">kayderv</b></a></li>
+		    <li><a href="" data-danhmucebook="all" class="menu"> Xem tất cả</a></li>
+			<li><a href="" data-danhmucebook=".ykhoa" class="menu">y khoa</a></li>
+			<li><a href="" data-danhmucebook=".phattriencanhan" class="menu">phát triển cá nhân</a></li>
+			<li><a href="" data-danhmucebook=".ngoaingu" class="menu">ngoại ngữ</a></li>
+		    <li><a href="" data-danhmucebook=".duoc" class="menu">dược</a></li>
+		</ul>
+</div>
+
+<datalist id="danhsach">
+		<option value="ykhoa"></option>
+		<option value="phattriencanhan"></option>
+		<option value="ngoaingu"></option>
+		<option value="duoc"></option>
+	</datalist>
+<section>
+<h1>Tất cả ebook</h1>
+<div class="content">
+	    <ul>
+	    	<li class="ykhoa"> 
+	    		<a href="https://drive.google.com/file/d/1IN0S25_NFLLSkL60skCc22raGg2JISaJ/view?usp=sharing" target="_blank">
+	    	        <img src="sinh-ly-1.png" alt="">
+	    	       <div class="tuaebook">Sinh lý 1-HN</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="ykhoa"> 
+	    		<a href="https://drive.google.com/file/d/1ndItr1iIhsWECBBnhVAAJxss3BMUAT3y/view?usp=sharing" target="_blank">
+	    	        <img src="sinh-ly-2.jpg" alt="">
+	    	       <div class="tuaebook">Sinh lý 2-HN</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="phattriencanhan"> 
+	    		<a href="https://drive.google.com/file/d/1pZha9imqgNZYUGFlQueOd-2AiYlRIPyL/view?usp=sharing" target="_blank">
+	    	        <img src="CoreJava TiengViet.png" alt="">
+	    	       <div class="tuaebook">CoreJava-UDS</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="phattriencanhan"> 
+	    		<a href="https://drive.google.com/file/d/1F5uXm8Uq43djjf20iFNoYibGdm5-EvRL/view?usp=sharing" target="_blank">
+	    	        <img src="Dac-nhan-tam.jpg" alt="">
+	    	       <div class="tuaebook">Đắc nhân tâm</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="ykhoa"> 
+	    		<a href="https://drive.google.com/file/d/1HHoqE9JC6i7qbONNFwk6ezhtBr2-sxuC/view?usp=sharing" target="_blank">
+	    	        <img src="gpb-pnt.png" alt="">
+	    	       <div class="tuaebook">Giải phẫu bệnh-PNT</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="duoc"> 
+	    		<a href="https://drive.google.com/file/d/1ApL8UKzvtQFUI5XI93n4pqsSMYFzvV1T/view?usp=sharing" target="_blank">
+	    	        <img src="hoasinhlsyhanoi.jpg" alt="">
+	    	       <div class="tuaebook">Hóa sinh lâm sàng-HN</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="duoc"> 
+	    		<a href="https://drive.google.com/file/d/1qPYalkTU58moLxyrR3DIKPFETER3TsLn/view?usp=sharing" target="_blank">
+	    	        <img src="hoa-sinh-y-huế.png" alt="">
+	    	       <div class="tuaebook">Hóa sinh-YH</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="ykhoa"> 
+	    		<a href="https://drive.google.com/file/d/1LNU6SiBYtcyAQ89MkJFsNCQzefD5ST8a/view?usp=sharing" target="_blank">
+	    	        <img src="nhan-to-enzyme-phuong-thuc-song-lanh-manh.jpg" alt="">
+	    	       <div class="tuaebook">Nhân tố enzyme phương thức sống lành mạnh</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	       <li class="phattriencanhan"> 
+	    		<a href="https://drive.google.com/file/d/1HLrlN0TnBTHFBWULGkGQqeHCYbX-jNsf/view?usp=sharing" target="_blank">
+	    	        <img src="php.png" alt="">
+	    	       <div class="tuaebook">PhP Mysql Javascript Html5 All-In-One-For Dummies</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	      
+	         <li class="duoc"> 
+	    		<a href="https://drive.google.com/file/d/1g8xzemQlyyl6pEQu2ZM97zSmjR948dhz/view?usp=sharing" target="_blank">
+	    	        <img src="hdc-vc.jpg" alt="">
+	    	       <div class="tuaebook">Hóa đại cương vô cơ 1-Lê Thành Phước</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	           <li class="duoc"> 
+	    		<a href="https://drive.google.com/file/d/1yVELRYbIW0DNqp0bGQLczOj5omrosSXI/view?usp=sharing" target="_blank">
+	    	        <img src="organic-chemistry-7th-edition-ebook-pdf-0.jpeg" alt="">
+	    	       <div class="tuaebook">Organic chemistry 7th edition</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	        <li class="duoc"> 
+	    		<a href="https://drive.google.com/file/d/1dr0x1iXo5G7SMzHrjm1xZt3k003Oy5XA/view?usp=sharing" target="_blank">
+	    	        <img src="hoa sinh lam sang.jpg" alt="">
+	    	       <div class="tuaebook">Hóa sinh lâm sàng-YDS</div>
+	    	    </a>
+	        </li>
+	       <!--  end 1 ebook -->
+	    </ul>
+</div>
+</section>
+   
+</body>
+</html>
